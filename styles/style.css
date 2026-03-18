@@ -12,6 +12,7 @@ header {
     justify-content: space-between;
     padding: 15px 25px;
     align-items: center;
+    font-weight: bold;
 }
 .top-derecha a {
     text-decoration: none;
@@ -31,6 +32,8 @@ header {
     background-color: rgb(65, 65, 65);
     width: 220px;
     padding: 20px;
+    color: rgb(179, 179, 179);
+    font-weight: bold;
     
 }
 .barra-lateral div{
@@ -39,4 +42,16 @@ header {
 }
 main {
     display: flex;
+}
+.parrafo {
+    padding: 35px;
+    line-height: 30px;
+}
+h2 {
+    font-weight: bold;
+    font-size: 35px;
+}
+p {
+    padding-top: 10px;
+    color: rgb(54, 54, 54);
 }
